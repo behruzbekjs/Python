@@ -1,6 +1,6 @@
-son = 1
-while son < 10:
-    print(son)
+# son = 1
+# while son < 10:
+#     print(son)
     # son += 1
 
 # Infinity loop - cheksiz sikl / abadiy sikl
@@ -35,16 +35,16 @@ while son < 10:
 input = "Yoshingizni kiriting: "
 
 while True:
-    value = input(input)
-    if value == 'exit' or value == 'quit':
+    yosh = input(input)
+    if yosh == 'exit' or yosh == 'quit':
         break
-    age = int(value)
+    age = int(yosh)
     
     if age < 7:
         narx = 2000
-    elif 7 <= age < 18:
+    elif 7 <= age <18:
         narx = 3000
-    elif 18 <= age < 65:
+    elif 18 <= age <65:
         narx = 10000
     else: narx = 0
     if narx == 0:
