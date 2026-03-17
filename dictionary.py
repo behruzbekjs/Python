@@ -55,3 +55,4 @@ print(f"Talaba {talaba_1['fullname'].title()} {talaba_1['age']} yoshda va {talab
 # get metodi()
 telefonlar ={'ali': '99890123456', 'vali': '99890123457', 'gani': '99890123458'}
 print(telefonlar.get('ali'))
+
